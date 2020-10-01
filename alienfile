@@ -40,7 +40,6 @@ configure {
     requires 'File::Copy::Recursive' => 0;
     requires 'File::Which'           => 0;
     requires 'IPC::Run'              => 0;
-    requires 'IO::Pty'               => 0;
     requires 'JSON'                  => 0;
 };
 
@@ -76,7 +75,8 @@ share {
 
     gather sub {
         my ($build) = @_;
-        $build->runtime_prop->{version} = MyInstallUtil::detect_kaleido_version();
+        $build->runtime_prop->{version} =
+          MyInstallUtil::detect_kaleido_version();
     };
 };
 
