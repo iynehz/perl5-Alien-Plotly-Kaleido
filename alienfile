@@ -40,6 +40,7 @@ configure {
     requires 'File::Copy::Recursive' => 0;
     requires 'File::Which'           => 0;
     requires 'IPC::Run'              => 0;
+    requires 'IO::Pty'               => 0;
     requires 'JSON'                  => 0;
 };
 
