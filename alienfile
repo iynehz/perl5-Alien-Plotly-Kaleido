@@ -1,5 +1,6 @@
 #!perl
 
+use 5.010;
 use alienfile;
 
 use lib 'util';
@@ -75,6 +76,12 @@ share {
 
     gather sub {
         my ($build) = @_;
+
+        $ENV{PATH} = join(
+            $Config{path_sep},
+            $build->install_prop->{prefix},
+            $ENV{PATH} // ''
+        );
         $build->runtime_prop->{version} =
           MyInstallUtil::detect_kaleido_version();
     };
