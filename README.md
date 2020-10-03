@@ -7,7 +7,7 @@ Alien::Plotly::Kaleido - Finds or installs plotly kaleido
 
 # VERSION
 
-version 0.0001
+version 0.001
 
 # SYNOPSIS
 
