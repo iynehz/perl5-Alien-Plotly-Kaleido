@@ -7,7 +7,7 @@ Alien::Plotly::Kaleido - Finds or installs plotly kaleido
 
 # VERSION
 
-version 0.001
+version 0.001\_001
 
 # SYNOPSIS
 
@@ -45,7 +45,7 @@ It supports 3 OS platforms: Windows, Linux and OSX.
 [https://github.com/plotly/Kaleido](https://github.com/plotly/Kaleido)
 
 [Alien](https://metacpan.org/pod/Alien), 
-[Chart::Plotly](https://metacpan.org/pod/Chart%3A%3APlotly)
+[Chart::Plotly](https://metacpan.org/pod/Chart::Plotly)
 
 # AUTHOR
 
