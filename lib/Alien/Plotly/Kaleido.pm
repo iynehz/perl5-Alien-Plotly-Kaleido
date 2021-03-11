@@ -113,11 +113,15 @@ __END__
 =head1 DESCRIPTION
 
 This module finds L<plotly's kaleido|https://github.com/plotly/Kaleido>
-from your system, or installs it (version 0.0.3.post1).
+from your system, or installs it.
 
 For installation it uses prebuilt packages from
 L<kaleido's github release page|https://github.com/plotly/Kaleido/releases>.
 It supports 3 OS platforms: Windows, Linux and OSX.
+
+=head1 KALEIDO VERSION
+
+0.2.1
 
 =head1 SEE ALSO
 
