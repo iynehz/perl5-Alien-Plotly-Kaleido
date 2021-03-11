@@ -30,7 +30,7 @@ sub download_url {
         return $make_url_github->($filename);
     }
     elsif ( $^O eq 'darwin' ) {
-        return $make_url_github->('kaleido_linux_x64.zip');
+        return $make_url_github->('kaleido_mac.zip');
     }
     else {
         die 'Unsupported OS';
