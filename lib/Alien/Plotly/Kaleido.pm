@@ -52,7 +52,7 @@ sub detect_kaleido_version {
             return $data;
         };
 
-        my @cmd = ( $kaleido, 'plotly', '--disable-gpu' );
+        my @cmd = ( $kaleido, 'plotly', '--disable-gpu', '--no-sandbox' );
         eval {
             require Chart::Plotly;
             my $plotlyjs =
@@ -115,13 +115,23 @@ __END__
 This module finds L<plotly's kaleido|https://github.com/plotly/Kaleido>
 from your system, or installs it.
 
-For installation it uses prebuilt packages from
-L<kaleido's github release page|https://github.com/plotly/Kaleido/releases>.
 It supports 3 OS platforms: Windows, Linux and OSX.
 
 =head1 KALEIDO VERSION
 
 0.2.1
+
+=head1 INSTALLATION
+
+By default if it cannot detect Kaleido from your environment,
+it will download Kaleido package from
+L<kaleido's github release page|https://github.com/plotly/Kaleido/releases>.
+
+If you want to install from a different url, or from locally downloaded
+zipball, you can use environment variable =ALIEN_PLOTLY_KALEIDO_DOWNLOAD_URL=.
+For example, to install from a local zipball,
+
+    ALIEN_PLOTLY_KALEIDO_DOWNLOAD_URL=file:///your/local/kaleido/zip cpanm Alien::Plotly::Kaleido
 
 =head1 SEE ALSO
 
