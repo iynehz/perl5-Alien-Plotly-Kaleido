@@ -7,7 +7,7 @@ Alien::Plotly::Kaleido - Finds or installs plotly kaleido
 
 # VERSION
 
-version 0.001\_001
+version 0.001\_002
 
 # SYNOPSIS
 
@@ -34,22 +34,30 @@ if (Alien::Plotly::Kaleido->install_type eq 'share') {
 # DESCRIPTION
 
 This module finds [plotly's kaleido](https://github.com/plotly/Kaleido)
-from your system, or installs it (version 0.0.3.post1).
+from your system, or installs it.
 
 For installation it uses prebuilt packages from
 [kaleido's github release page](https://github.com/plotly/Kaleido/releases).
 It supports 3 OS platforms: Windows, Linux and OSX.
+
+# KALEIDO VERSION
+
+0.2.1
 
 # SEE ALSO
 
 [https://github.com/plotly/Kaleido](https://github.com/plotly/Kaleido)
 
 [Alien](https://metacpan.org/pod/Alien), 
-[Chart::Plotly](https://metacpan.org/pod/Chart::Plotly)
+[Chart::Plotly](https://metacpan.org/pod/Chart%3A%3APlotly)
 
 # AUTHOR
 
 Stephan Loyd <sloyd@cpan.org>
+
+# CONTRIBUTOR
+
+Carlos D. Álvaro <github@cdalvaro.io>
 
 # COPYRIGHT AND LICENSE
 

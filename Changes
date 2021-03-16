@@ -1,6 +1,8 @@
 Revision history of Alien-Plotly-Kaleido
 
-0.001_001   2020-10-04
+0.001_002   2021-03-16
+    - Use Kaleido version 0.2.1
+    - Fix MacOS installation. Thanks Carlos D. Álvaro!
     - Try to fix a Windows bitness detection issue.
 
 0.001       2020-10-03
