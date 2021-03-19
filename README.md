@@ -7,7 +7,7 @@ Alien::Plotly::Kaleido - Finds or installs plotly kaleido
 
 # VERSION
 
-version 0.001\_002
+version 0.002
 
 # SYNOPSIS
 
@@ -52,9 +52,9 @@ If you want to install from a different url, or from locally downloaded
 zipball, you can use environment variable =ALIEN\_PLOTLY\_KALEIDO\_DOWNLOAD\_URL=.
 For example, to install from a local zipball,
 
-\`\`\`
-ALIEN\_PLOTLY\_KALEIDO\_DOWNLOAD\_URL=file:///your/local/kaleido/zip cpanm Alien::Plotly::Kaleido
-\`\`\`
+```
+ALIEN_PLOTLY_KALEIDO_DOWNLOAD_URL=file:///your/local/kaleido/zip cpanm Alien::Plotly::Kaleido
+```
 
 # SEE ALSO
 
@@ -73,7 +73,7 @@ Carlos D. Álvaro <github@cdalvaro.io>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2020 by Stephan Loyd.
+This software is copyright (c) 2020-2021 by Stephan Loyd.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
