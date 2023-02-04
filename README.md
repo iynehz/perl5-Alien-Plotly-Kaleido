@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/stphnlyd/perl5-Alien-Plotly-Kaleido.svg?branch=master)](https://travis-ci.org/stphnlyd/perl5-Alien-Plotly-Kaleido)
-[![AppVeyor Status](https://ci.appveyor.com/api/projects/status/github/stphnlyd/perl5-Alien-Plotly-Kaleido?branch=master&svg=true)](https://ci.appveyor.com/project/stphnlyd/perl5-Alien-Plotly-Kaleido)
+[![Build Status](https://travis-ci.org/iynehz/perl5-Alien-Plotly-Kaleido.svg?branch=master)](https://travis-ci.org/iynehz/perl5-Alien-Plotly-Kaleido)
+[![AppVeyor Status](https://ci.appveyor.com/api/projects/status/github/iynehz/perl5-Alien-Plotly-Kaleido?branch=master&svg=true)](https://ci.appveyor.com/project/iynehz/perl5-Alien-Plotly-Kaleido)
 
 # NAME
 
@@ -7,7 +7,7 @@ Alien::Plotly::Kaleido - Finds or installs plotly kaleido
 
 # VERSION
 
-version 0.002
+version 0.003
 
 # SYNOPSIS
 
@@ -73,7 +73,7 @@ Carlos D. Álvaro <github@cdalvaro.io>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2020-2021 by Stephan Loyd.
+This software is copyright (c) 2020-2023 by Stephan Loyd.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
